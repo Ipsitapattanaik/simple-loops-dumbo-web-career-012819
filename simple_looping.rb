@@ -28,7 +28,7 @@ def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
 number_of_times=0
-  while a < 7
+  while number_of_times < 7
     puts "Hello Ruby-007!"
     a+=1
   end
