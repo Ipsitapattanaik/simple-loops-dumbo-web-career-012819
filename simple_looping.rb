@@ -8,35 +8,50 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+  loop do 
+        puts "Welcome to Flatiron School's Web Development Course!"
+        answer = gets.chomp
+        break if answer == 'Wingardium Leviosa'
+    end
+    puts "Welcome to Flatiron School's Web Development Course!"
   
 end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
+  7.times do
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+end
 end
 
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  while number_of_times < 8
+  puts "Welcome to Flatiron School's Web Development Course!"
+  number_of_times += 1
+end
 end
 
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  number_of_times = 7
+ until number_of_times == 0
+  #puts "Welcome to Flatiron School's Web Development Course!"
+  puts "Welcome to Flatiron School's Web Development Course!"
+  number_of_times -= 1
+end
 end
 
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  	checklist = 1..10
+	#your code here
+	number_of_times = 7
+	for number_of_times in 1..7 do
+  puts "Welcome to Flatiron School's Web Development Course!"
 end
+end 
 
