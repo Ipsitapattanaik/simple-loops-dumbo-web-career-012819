@@ -8,13 +8,12 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
-  loop do 
-        puts "Welcome to Flatiron School's Web Development Course!"
-        answer = gets.chomp
-        break if answer == 'Wingardium Leviosa'
-    end
-    puts "Welcome to Flatiron School's Web Development Course!"
-  
+  z = 0
+  loop do
+    z+=1
+    puts "Hello Ruby-007!"
+    break if z == number_of_times
+  end
 end
 
 def times_iterator(number_of_times)
