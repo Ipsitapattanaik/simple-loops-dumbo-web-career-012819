@@ -30,7 +30,7 @@ def while_iterator(number_of_times)
 number_of_times=0
   while number_of_times < 7
     puts "Hello Ruby-007!"
-    a+=1
+    number_of_times+=1
   end
 end
 
